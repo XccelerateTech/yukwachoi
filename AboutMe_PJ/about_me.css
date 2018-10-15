@@ -1,0 +1,365 @@
+html body{
+    padding:0;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom: solid 1px #fff;
+    opacity: 0.3;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.solid {
+    background: #fff;
+    border-bottom: solid 1px #fff;
+    opacity: 1;
+    transform: 0.5s;
+}
+
+.nav-link.active {
+    color: #f05f40 !important;
+    font-weight: bold;
+}
+
+.navbar-brandActive {
+    color: #f05f40 !important;
+    font-size: 1.3rem;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 0.8rem;
+    }
+}
+
+.row{
+    margin:0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.navbar-brand{
+    font-family: cursive;
+    display: flex;
+}
+
+.titlename{
+    margin-bottom: 0;
+    margin-left:10px;
+    margin-top:5px;
+}
+
+#Entrance{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)) ,url(entrance.jpg);
+    height: 90vh;
+    width:100%;
+    background-size:cover;
+    background-position: center;
+}
+
+.entrancetitle{
+    width:100%;
+    height:100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.william img{
+    width: 28%;
+    height: 28%;
+    min-width: 300px;
+}
+
+.quotation img{
+    width: 35%;
+    height: 35%;
+    min-width: 300px;
+}
+
+.signature img{
+    width:7%;
+    height:10%;
+    min-width: 50px;
+}
+
+#introduction{
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(boston.png) ;
+    height: auto;
+    min-height: 90vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#introduction{
+    height: 50%;
+    padding: 0;
+    margin:0;
+}
+
+.twoblocks{
+    display: flex;
+    align-items: center;
+}
+
+.intro-pic{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.intro-pic img{
+    width: 100%;
+    height: 100%;
+    margin: 5px 5px;
+    max-width: 400px;
+    max-height: 330px;
+    border-radius: 15px;
+}
+
+.intro-text{
+    height:50%;
+    color: aliceblue;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    padding:20px;
+}
+
+#work{
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(lighttheworld.png);
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#workblock{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#workpic{
+    color:#fff;
+    font-size: 20px;
+}
+
+#travel{
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(travelplane.png);
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    text-align: left;
+}
+
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75); 
+}
+
+.card-img-top{
+    height: 30vh;
+}
+
+.cardset-1{
+    background-color: #0059b3;
+    color: #fff;
+}
+
+.cardset-2{
+    background-color: #ffa64d;
+    color: #fff;
+}
+
+.cardset-3{
+    background-color: #00b300;
+    color: #fff;
+}
+
+#life{
+    background:none;
+    width: auto;
+    height: auto;
+    background-size:cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+
+.firstrow{
+    width: 100%;
+}
+
+.lifeblock{
+    padding: 0;
+    min-height:30vh;
+    height:auto;
+}
+
+.lifeblock img{
+    height: auto;
+    width: 100%;
+    min-height:30vh;
+    padding: 0;
+    margin:0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.lifeblock-1{
+    padding: 0;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lifeblock-2{
+    padding: 0;
+    height:60vh;
+} 
+
+.lifeblock-2 img{
+    height: auto;
+    min-height: 60vh;
+    width: 100%;
+    padding: 0;
+    margin:0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.word, .hint{
+    color:#fff;
+    
+}
+
+.hint{
+    opacity: 0;
+    transition: opacity 0.5s;
+    background: #00ccff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.hint:hover{
+    opacity: 0.9;
+}
+
+.hint span.word{
+    display: block;
+    font-size: 0.8rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+#contact{
+    background: #ccc;
+    width: 100%;
+    min-height: 20vh;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+}
+
+.icons{
+    font-size: 60px;
+}
+
+.iconlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px ;
+}
+
+.iconlist li{
+   list-style: none;
+}
+
+.iconlist li a{
+    background-color: #fff;
+    display: block;
+    width: 80px;
+    height:80px;
+    line-height: 80px;
+    border-radius: 50%;;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.iconlist li a .fa{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+}
+
+.iconlist li a:hover .fa{
+    transform: rotateY(360deg);
+    color: #fff;
+}
+
+.iconlist li a:before{
+    position: absolute;
+    top:100%;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    z-index:2;
+}
+
+
+
+#contact p{
+    padding:0;
+    margin: 0px !important;
+    color: #fff;
+    font-size: 20px;
+}
