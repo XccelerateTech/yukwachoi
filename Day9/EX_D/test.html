@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header id='header'>
+        <h1>This is a testing page!</h1>
+    </header>
+    <section id="hello">
+        <h1>This is second h1</h1>
+    </section>
+    <section id="para">
+        <div class="first">
+            <p>This is the important testing page to let you about the DOM EVENT and JQuery for enhancing your
+                coding ability that will be useful to your future.<span>Hello Every one</span></p>
+            <p>This is the important testing page to let you about the DOM EVENT and JQuery for enhancing your
+                coding ability that will be useful to your future.<span>Hello Every one</span></p>
+            <p>This is the important testing page to let you about the DOM EVENT and JQuery for enhancing your
+                coding ability that will be useful to your future.<span>Hello Every one</span></p>
+        </div>
+        
+        <input type="button" value="try it!">
+        <input type="submit" vaule="end">
+        <input typoe="text" name="name" value="Name">
+
+        <a herf="https://www.google.com">Google</a>
+        <a herf="https://hk.yahoo.com/?p=us">Yahoo it</a>   
+        
+        <ul id="ul">
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+        </ul>
+    </section>
+
+    <script type='text/javascript'>
+        //$('header#header').hide();
+        //$('*').hide();
+        $('p span').css('color', 'red');
+        $('#para .first p:nth-child(1)').css('background-color', 'yellow')
+        $('ul#ul li:odd').css('background-color', 'grey')
+        $('')
+    </script>
+</body>
+
+</html>

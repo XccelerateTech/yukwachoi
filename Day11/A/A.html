@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<p> This is a page!</p>
+
+<script type='text/javascript'>
+var gg = [];
+    $(function(){ 
+        $.ajax({
+            url:"/data.json",
+            beforeSend:function(xhr){
+            },
+            type: "GET"
+        }).done(function(data){
+            gg = data; // gg can store the data value, then we dont need to run the fuction again but we can know the value inside when we call gg.
+            console.log(data); // when the function run, the data can be shown
+            console.log("This function will be run if the ajax is successful");
+        }).fail(function(data){
+
+            console.log("This function will be run if the ajax if failed");
+        }).always(function(data){
+            console.log("This function runs no matter success or fail.");
+        })
+    });
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.logo{
+    width: 20%;
+    height: 100%;
+}
+
+.P{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(flowershop.jpg);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.head{
+    text-align: center;
+}
+
+.flowershop{
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 0px; 
+    font-size: 50px;
+    
+}
+
+.learnmore{
+    color: #fff;
+    border: 2px solid rgb(139, 221, 107);
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(139, 221, 107);
+}
+
+.icons{
+    background-color: rgb(125, 243, 184);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    margin: 30px 100px;
+    width: 25%;
+    display:flex;
+
+}
+
+.box img{
+    width: 120px;
+    height: 80px;
+}
+
+.box p{
+    margin-left: 20px;
+    margin-top: 20px;
+}

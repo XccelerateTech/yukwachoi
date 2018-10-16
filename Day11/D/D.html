@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<p> This is a page!</p>
+
+
+<form action="#location" method="POST" id="form">
+    <input type="text" name="lat" placeholder="lat" value="51.50722" />
+    <input type="text" name="lng" placeholder="lng" value="-0.1275" />
+</form>
+
+<script type='text/javascript'>
+
+    $(function(){
+        var serializedInput = $('#form').serialize();
+        console.log(serializedInput);
+        // serializedInput is a javascript object
+        /*
+            [
+                {name: "location", value: "London"}
+                {name: "Latitude", value: "51.50722"}
+                {name: "Longitude", value: "-0.1275"}
+            ]
+        */
+        // It worked for both POST and GET request.
+
+        $.ajax({
+            type:'GET',
+            url:`https://api.sunrise-sunset.org/json?${serializedInput}`,
+            data: serializedInput,
+            dataType: "json",
+            success: function(data){
+                console.log("This function will be run if the ajax is successful");
+                console.log(data);
+                // Success handler
+            },
+            error: function(data){
+                console.log("This function will be run if the ajax if failed");
+                // error handler
+            }
+        });
+
+        // You can also stringify the javascript object to a JSON string.
+        JSON.stringify(serializedInput);
+    });
+</script>
+</body>
+
+</html>

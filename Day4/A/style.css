@@ -1,0 +1,246 @@
+html body{
+    padding:0;
+    margin:0;
+    min-width: 500px; 
+    opacity:0.9;
+}
+
+.firsttitle{
+    margin-left: 10px;
+}
+
+.background{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(header.jpg); 
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+    max-height: 700px;
+}
+
+.title nav{
+    border-bottom: 0.2px solid #D3D3D3;
+    padding : 0;
+}
+
+
+#header-leftbar{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+    margin-left: 10px;
+}
+
+#header-right{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+.header-text{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.header-bottom{
+    border: 1px solid #FF4500;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF4500; 
+    margin: 10px auto;
+    Width: 100%;
+}
+
+.header-h{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.header-p{
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.header-hr{
+    background-color: #FF4500;
+    width:50px;
+    height:1px;
+    margin: 25px auto;
+}
+
+#about{
+    background-color: #FF4500;
+    text-align: center;
+}
+
+.jumbotron{
+    background-color: rgba(0,0,0,0);
+}
+
+.about-h{
+    color:#fff;
+    font-size: 28px;
+    margin: 25px auto;
+}
+
+.about-hr{
+    background-color:#fff;
+    width:50px;
+    height:1px;
+    margin: 25px auto;
+}
+
+.about-p{
+    margin: 25px auto;
+    color: #fff;
+    width: 100%;
+}
+
+.about-bottom{
+    background-color: #fff;
+    color: #000;
+    border:0 ;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.icons-h{
+    text-align: center;
+    font-size: 25px;
+}
+
+.icons-hr{
+    background-color: orangered;
+    width:50px;
+}
+
+.icons1 img{
+    width: 75px;
+    height: 70px;
+}
+
+.icons1{
+    text-align: center;
+    width: 25%;
+}
+
+.icons1 h1{
+    font-size:20px;
+}
+
+.icons1 p{
+    font-size:15px;
+    width:100%;
+    height: auto;
+    text-align: center;
+    margin:0;
+}
+
+#bullshit{
+    background: #000;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.bullshit-h{
+    color:#fff;
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+.bullshit-bottom{
+    text-align: center;
+    width: 100%;
+}
+
+.word, .hint{
+    color:#fff;
+}
+
+.bullshit .hint{
+    opacity: 0;
+    transition: opacity 0.5s;
+    background: #f05f40;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #A9A9A9;
+    margin-bottom: 0;
+}
+
+.hint:hover{
+    opacity: 1;
+}
+
+.bullshit .hint span.word{
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.col-lg-3, .col-md-6, .col-12{
+    padding: 0;
+}
+
+#callme{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.callme-h{
+    font-size: 30px;
+}
+
+.callme-hr{
+    background-color: #FF4500;
+    width:50px;
+    height:1px;
+    margin: 25px auto;
+}
+
+.callme-p{
+    font-size: 20px;
+    width: 100%;
+}
+
+.callme-icons{
+    width:100%;
+    text-align: center;
+}
+
+.callme-icons-1{
+    width: 100%;
+}
+.callme-icons-1 img{
+    width: 75px;
+    height: 70px;
+}
+
+.callme-icons-1 a{
+    color: #FF4500;
+}

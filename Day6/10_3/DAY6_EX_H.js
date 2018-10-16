@@ -1,0 +1,1 @@
+var letterArray = 'abcdefghijklmnopqrstuvwxyz'.split('');
