@@ -1,0 +1,1 @@
+console.log('Day 23 EX A')

@@ -1,0 +1,19 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "Day 23 Ex A",
+  "main": "A.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.16.2"
+  }
+}
