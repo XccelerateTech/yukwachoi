@@ -14,9 +14,10 @@ app.get('/',(req,res)=>{
 });
 
 app.post('/result', function(req,res){
-    arr = req.body
+    req.body = arr;
     console.log(req.body);
-    console.log(res.json({sum: sum}));
+    console.log(res.json(req.body));
+    res.json({sum: sum});
 });
 
 app.listen(8080);
